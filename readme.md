@@ -111,6 +111,11 @@ We are going to make use of these credentials in our django project
     SOCIALACCOUNT_LOGIN_ON_GET = True
     ```
 
+- Add the following to the top of the ```MIDDLEWARE``` list:
+    ```
+    'allauth.account.middleware.AccountMiddleware',
+    ```
+
 ### 7. Including allauth urls in urls.py:
 
 - Head to your urls.py file in your project folder

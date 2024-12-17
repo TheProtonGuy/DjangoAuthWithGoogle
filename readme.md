@@ -108,6 +108,7 @@ We are going to make use of these credentials in our django project
      ```python
     LOGIN_REDIRECT_URL = '/'
     LOGOUT_REDIRECT_URL = '/'
+    SOCIALACCOUNT_LOGIN_ON_GET = True
     ```
 
 ### 7. Including allauth urls in urls.py:
